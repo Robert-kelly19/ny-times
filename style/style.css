@@ -1,20 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   border-bottom: 1px solid black;
-  background-color: rgb(247, 255, 255);
+  background-color: gainsboro;
 }
 
-.header1, ul {
+.header1,
+ ul {
   display: flex;
   margin: 5px auto;
   padding: 3px auto;
 }
 
-ul, li {
+ul, 
+ li {
   padding: 5px;
   list-style-type: none;
 }
@@ -22,7 +24,7 @@ ul, li {
 .header2 {
   display: flex;
   margin: 3px 10px;
-  padding: 3px ;
+  padding: 3px;
 }
 
 h1 {
@@ -44,16 +46,17 @@ h1 {
   width: 2cm;
   padding: 10px;
 }
+
 .main {
   display: flex;
   flex-direction: row;
   padding: 1rem;
 }
 
-.Section-1 {
+.section-1 {
   margin: 10px;
   padding: 20px;
-  background-color: rgb(255, 255, 255);
+  background-color: gray;
 }
 
 .left {
@@ -72,7 +75,9 @@ h1 {
   padding: 0.2rem;
 }
 
-p, small, figcaption {
+p,
+ small,
+ figcaption {
   color: gray;
 }
 
@@ -83,12 +88,11 @@ small {
 }
 
 h4 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", Times, serif, serif;
 }
 
 section {
-  border-bottom: 1px solid rgb(170, 168, 168);
+  border-bottom: 1px solid grey;
 }
 
 figcaption {
@@ -102,26 +106,27 @@ figcaption {
   align-items: flex-end;
 }
 
-.midle, img {
+.midle,
+ img {
   width: 450px;
   height: 400px;
 }
 
-.Horiz {
+.horiz {
   display: flex;
   justify-content: space-between;
   padding: 0.2rem;
-  border-top: 1px solid rgb(181, 180, 180);
-  border-bottom: 1px solid rgb(183, 182, 182);
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
 
 .trump {
   height: 100px;
   width: 100px;
-  border: 3px solid rgb(6, 121, 252);
+  border: 3px solid blue;
 }
 
-.Amric {
+.amric {
   height: 100px;
   width: 100px;
 }
@@ -133,6 +138,7 @@ figcaption {
   padding: 0.5rem auto;
   margin: 0.5rem auto;
 }
+
 .Section-2 {
   flex-grow: 2;
   margin: 10px;
@@ -155,6 +161,7 @@ figcaption {
   padding: 10px;
   justify-content: space-between;
 }
+
 .rgt-flex {
   height: 170px;
   width: 160px;
@@ -164,10 +171,11 @@ figcaption {
   height: 110px;
   width: 100px;
 }
-.Advert{
+
+.Advert {
   background-color: aliceblue;
   border-top: 1px solid grey;
-  border-bottom:1px solid grey ;
+  border-bottom: 1px solid grey;
   color: grey;
   height: 250px;
   width: 97%;
